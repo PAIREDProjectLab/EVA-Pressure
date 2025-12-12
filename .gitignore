@@ -1,0 +1,73 @@
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# VSCode / PyCharm / RStudio
+.vscode/
+.idea/
+.Rproj.user/
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual envs
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# -------------------------
+# R
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+
+# -------------------------
+# DATA FILES
+# Do NOT commit raw data
+# -------------------------
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.sas7bdat
+*.parquet
+*.feather
+*.rds
+*.RDS
+*.rdata
+*.RData
+*.h5
+*.hdf5
+*.jsonl
+*.gdf
+
+
+# -------------------------
+# documents
+# -------------------------
+*.pdf
+*.docx
+*.pptx
+*.txt
